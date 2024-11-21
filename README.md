@@ -2,13 +2,15 @@
 A Python3/Python Turtle program that takes raster image data values from any image and renders the image in black-and-white, pseudocolor, and grayscale dots.
 
 # How Does It Work?
-This program first uses a function to get raster values from any image. Then, it takes that data and makes a sublist of values from each block of pixels by separating the blocks into rows and columns. The average pixel value is calculated from the block sublist. The average pixel value is then converted to a circle radius by dividing the block size in half and drawn with the center of the current block. The program scans through the image data block by block and represents each with a circle depending on render style. 
+This program first uses a function to get raster values from any image. Then, it takes that data and makes a sublist of values from each block of pixels by separating the blocks into rows and columns. The average pixel value is calculated from the block sublist. The average pixel value is then converted to a circle radius by dividing the block size in half. The program scans through the image data block by block and represents each with a circle depending on render style. 
 
-### Inputted Image
+## Input
 &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; ![Example image file that depicts a flower of orange and yellow shades against greenery comprised of cool colors.](https://github.com/user-attachments/assets/843ec35d-8b95-4ac3-ad30-d03bec91c530)
 
 The example image (`file.png`) is uploaded as a test image for the program. <br />Upload your own file by replacing `image_path = "file.jpg"` with the file path to your image.
 
+
+## Output
 ### Black-and-White Render
 ![The image file is rendered in black-and-white with four different blocksize dimensions.](https://github.com/user-attachments/assets/43ebb64f-aa4c-4ea8-8e80-4a7d165f7044)
 

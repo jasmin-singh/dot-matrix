@@ -22,7 +22,7 @@ def get_pixel_data(image_path):
         imagePixelData.append(row)
     return imagePixelData
 
-# Usage
+#usage
 image_path = "file.jpg"
 imagePixelData = get_pixel_data(image_path)
 #print(imagePixelData) #debug
@@ -134,9 +134,6 @@ while (blockSize % 2 != 0):
 imageMode = 0
 while (imageMode == 0):
     imageMode = int(input("\nEnter the image render mode (1, 2, or 3). \n(1) uses black circles of varying radius, \n(2) circles filled with pseudo color\n(3) fills circles with grayscale: "))
-
-# add another rendering mode where the circle radius changes but the fill is a pseudo color rather than black    
-# add another rendering mode that inverts the grayscale: original dark = light , original light --> dark  Y = 255-Y
 
 #print(blockSize) #debug
 #print(imageMode) #debug

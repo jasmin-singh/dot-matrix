@@ -4,7 +4,6 @@ import turtle
 import turtle as t
 from PIL import Image
 from math import pi,sin,cos,floor
-#AVOIDS bad color sequence
 
 #function to get raster image data values from any image
 def get_pixel_data(image_path):
@@ -123,6 +122,7 @@ turtle.hideturtle()
 turtle.penup()
 #turtle.speed(0)
 turtle.tracer(0,0)
+#avoids bad color sequence error
 turtle.colormode(255)
 
 # ask the user for the blocksize desired

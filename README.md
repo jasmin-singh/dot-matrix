@@ -7,7 +7,7 @@ This program first uses a function to get raster values from any image. Then, it
 ## Input
 &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; ![Example image file that depicts a flower of orange and yellow shades against greenery comprised of cool colors.](https://github.com/user-attachments/assets/843ec35d-8b95-4ac3-ad30-d03bec91c530)
 
-The example image (`file.png`) is uploaded as a test image for the program (credit: University of South Florida). <br />Upload your own file by replacing `image_path = "file.jpg"` with the file path to your image.
+The example image (`file.png`) is uploaded as a test image for the program (credit: University of South Florida). <br />Upload your own file by replacing `image_path = "file.png"` with the file path to your image.
 
 
 ## Output
